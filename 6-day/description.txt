@@ -1,0 +1,58 @@
+AoC 2023 - Gün 6
+
+Hikaye
+----- 
+Kahramanımızı bot ile bir adaya bırakıyorlar, sağ solu kolacan edince
+çevresinde bi kum yığını olduğunu görüyor. Çevresinde feribotların park ettiği küçük adacılıklar görüyor.
+
+Tüm bu olanları anlamaya çalışırken, duvarda bi yazı fark ediyor. 
+
+'Bot yarışları! Herkese Açık! Ödül olarak Çöl Adası gezisi hediye'
+
+Yarışmaya katılmak istiyor, organizatör ile görüşüyor. Organizatör bu yarışın normal bir yarış olmadığını söylüyor. Şöyle ki:
+
+Bu yarışta sabit bi süren var, yarış için oyuncak botlar kullanılıyor.
+Botun üzerinde bi buton var bu butona basıl tuttuğun saniye boyunca bot
+hız kazanıyor. Mesela butona 2 saniye bastın diyelim, bot 2 milisec/milimet hıza sahip oluyor.
+
+7 saniye hıza sahipsiniz diyelim, 2 saniye basılı tuttunuz ve bot 2 m/m hız kazandı, bırakınca 5 saniye boyunca 2m/m hızla gidiyor. Eğer 5 saniye butona basılı tutarsanız 5 m/m hıza sahip oluyor fakat 2 saniye gidebiliyor, çünkü süre sabit, yani toplam gideceği yol 10 milimetre.
+
+
+Burada size bi örnek tablo veriliyor, örnek tabloda 3 tane yarış yer alıyor.Bu 3 yarışa ait geçen sezonun rekorları yazılı.
+
+Time:     7  15  30
+Distance: 9  40  200
+
+Şeklinde, burada ilk yarışta 7 saniye süre verilmiş ve rekor skor 9 milimetre olmuş, ikinci yarışta 15 saniye verilmiş rekor 40 m, üçüncü yarışta 30 saniye verilmiş rekor 200 m.
+
+Siz tabloya bakarak ilk yarışta kazanmak için kaç saniye basılı tutmanız gerektiğini hesaplıyorsuz.
+
+İlk yarışta: Toplam 7 saniye verilmiş, gidelen uzaklık 9 milimetre
+
+Sizin kazanmanız için:
+
+1) 2 saniye basılı tutabilirsiniz, 2 * 5 = 10 milimetre
+2) 3 saniye basılı tutabilirsiniz, 3 * 4 = 12 milimetre 
+3) 4 saniye basılı tutabilirsiniz, 4 * 3 = 12 milimetre
+4) 5 saniye basılı tutabilirsiniz, 5 * 2 = 10 milimetre
+
+Bu yarışı kazanmak için 4 farklı seçeneğiniz var.
+
+Aynı şekilde diğer yarışlar için olan seçeneklerinizi de hesaplamanız ve bu sonuçlardan toplam kaç farklı varyant ile kazanabileceğiniz bulup yazmanız gerekiyor.
+
+İlk yarış için 4 farklı varyant var.
+İkinci yarış için 8 farklı varyant var.
+Üçüncü yarış için 9 farklı varyant var.
+
+Yani toplamda: 4 * 8 * 9 = 288 farklı yol ile kazanabilirsiniz.
+
+Size verilen veriler için de bu hesaplamayı yapıp kaç farklı yol ile kazanabileceğinizi hesaplamanız gerekiyor.
+
+Veri url: https://adventofcode.com/2023/day/6/input
+
+Url tıklamak isteymeyenler için:
+
+Time:        48     93     84     66
+Distance:   261   1192   1019   1063
+
+
